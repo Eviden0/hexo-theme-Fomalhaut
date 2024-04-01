@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Fomalhaut🥝
+title: Eviden🥝
 subtitle: 
 description: 'Future is now 🍭🍭🍭'
-keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,Fomalhaut🥝,Fomalhaut'
-author: Fomalhaut🥝
+keywords: 'CTF,网络安全,渗透测试,Linux,各种环境坑,Python,Go,Docker'
+author: Eviden🥝
 language: zh-CN
 timezone: ''
 
@@ -18,7 +18,8 @@ abbrlink:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.fomal.cc/
+url: http://47.236.170.130/
+root: /
 permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
@@ -124,8 +125,9 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repository:  # 这里写上你的Github地址
-    branch: main
+    repository: root@47.236.170.130:/var/repo/yunblog.git  # 这里写上你的Github地址
+    branch: master
+    # token: $HEXO_GITHUB_TOKEN
   # - type: baidu_url_submitter
   # - type: git
   #   #repo改为repo: git@域名:/var/repo/hexo.git
@@ -264,7 +266,7 @@ plugins:
 
 # 小冰分类磁贴
 magnet:
-  enable: true
+  enable: false
   priority: 2
   enable_page: /
   type: categories
@@ -286,7 +288,7 @@ magnet:
       display_name: 小Fの数据库笔记
       icon: 🍨
     - name: 演示
-      display_name: 小Fの案例演示笔记
+      display_name: 演示笔记
       icon: 🍥
   color_setting:
     text_color: black # 文字默认颜色

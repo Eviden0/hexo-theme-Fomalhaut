@@ -5,6 +5,7 @@
 
 'use strict'
 
+
 hexo.extend.helper.register('inject_head_js', function () {
   const { darkmode, aside } = this.theme
 

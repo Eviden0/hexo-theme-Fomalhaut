@@ -8,3 +8,4 @@ categories:
   - 
 mathjax: true
 ---
+<meta name="referrer" content="no-referrer" />

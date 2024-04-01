@@ -12,14 +12,14 @@ menu:
     八音盒: /life/music/ ||icon-yinle || faa-tada
     影院: /life/movies/ ||icon-dianying1 || faa-tada
     游戏: /life/games/ || icon-youxishoubing || faa-tada
-  八宝箱 || icon-xiangzi || faa-tada || hide:
-    画廊: /box/gallery/ ||icon-tubiaozhizuomoban || faa-tada
-    动画: /box/animation/ || icon-nvwumao || faa-tada
-    网址导航: /box/nav/ || icon-zhifengche || faa-tada
+  # 八宝箱 || icon-xiangzi || faa-tada || hide:
+    # 画廊: /box/gallery/ ||icon-tubiaozhizuomoban || faa-tada
+    # 动画: /box/animation/ || icon-nvwumao || faa-tada
+    # 网址导航: /box/nav/ || icon-zhifengche || faa-tada
   社交 || icon-shejiaoxinxi || faa-tada || hide:
     朋友圈: /social/fcircle/ || icon-pengyouquan || faa-tada
     留言板: /comments/ || icon-liuyan || faa-tada
-    友人帐: /social/link/ || icon-lianjie || faa-tada
+    # 友人帐: /social/link/ || icon-lianjie || faa-tada
   网站 || icon-wangye || faa-tada || hide:
     网站统计: /site/census/ || icon--tongjibiao || faa-tada
     文章统计: /site/echarts/ || icon-shujutongji1 || faa-tada
@@ -52,11 +52,11 @@ copy:
 #   icon: link || the description
 social:
   # Github: https://github.com/fomalhaut1998 || icon-github || faa-tada
-  微信: /assets/QRCode.jpg || icon-weixin || faa-tada
-  QQ: https://res.abeim.cn/api/qq/?qq=1174008660 || icon-QQ || faa-tada
-  B站: https://space.bilibili.com/220757832 || icon-bilibili || faa-tada
-  QQ邮箱: mailto:1174008660@qq.com || icon-youxiang || faa-tada
-  力扣: https://leetcode.cn/u/fomalhaut1998 || icon-leetcode || faa-tada
+  微信: https://weixin.qq.com/ || icon-weixin || faa-tada
+  QQ: https://res.abeim.cn/api/qq/?qq=xxx || icon-QQ || faa-tada
+  B站: https://bilibili.com/ || icon-bilibili || faa-tada
+  QQ邮箱: mailto:xxx@qq.com || icon-youxiang || faa-tada
+  力扣: https://leetcode.cn || icon-leetcode || faa-tada
   # 微博: https://weibo.com/u/6473136435 || icon-weibo || faa-tada
   # 知乎: https://www.zhihu.com/people/liang-jia-chao-19 || icon-shejiaotubiao-10 || faa-tada
   # RSS: /atom.xml || icon-RSS || faa-tada
@@ -113,7 +113,7 @@ favicon:
 
 # Avatar (頭像)
 avatar:
-  img: https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp
+  img: https://webpage-images.pages.dev/logo.jpeg
   effect: false
 
 # Disable all banner image
@@ -157,6 +157,20 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     - https://source.fomal.cc/img/default_cover_14.webp
+    # - https://pic1.zhimg.com/80/v2-3ff3d6a85edb2f19d343668d24ed9269_720w.webp?source=1def8aca
+    # - https://pic1.zhimg.com/80/v2-8cad20bbb75b352e5290001bbc3cb9cf_720w.webp?source=1def8aca
+    # - https://picx.zhimg.com/80/v2-557a84045b813d9749e742d112c5dda8_720w.webp?source=1def8aca
+    - https://s1.vika.cn/space/2024/02/28/0c80b0a86ba1456eb3f0f4c1acb2337f
+    - https://s1.vika.cn/space/2024/02/28/cba822a24a844528b91859a6093ff76d
+    - https://s1.vika.cn/space/2024/02/28/ffc5caf08d884ebd92d16f0075f5e0c6
+    - https://s1.vika.cn/space/2024/02/28/ad38509050e84cf5820534e707dc285e
+    - https://s1.vika.cn/space/2024/02/28/a591ea17a5144970b2337d5f8a413a8e
+    - https://s1.vika.cn/space/2024/02/28/86bfb1ecee974bb3b3a45ce97c781e29
+    - https://s1.vika.cn/space/2024/02/28/c24645940b0b4ea78fd5bf554e5b7c15
+    - https://s1.vika.cn/space/2024/02/28/457a0f4e84d04159891d645ed060a054
+    - https://s1.vika.cn/space/2024/02/28/8cbb2389199b44b7a42dadaf09efa18a
+
+
     # ...
 
 # A simple 404 page
@@ -224,12 +238,12 @@ reward:
   enable: true
   coinAudio: https://npm.elemecdn.com/akilar-candyassets@1.0.36/audio/aowu.m4a
   QR_code:
-    - img: https://tuchuang.voooe.cn/images/2023/01/04/2.webp
-      link:
-      text: 微信
-    - img: https://tuchuang.voooe.cn/images/2023/01/04/20f8e49805975b8f8.webp
-      link:
-      text: 支付宝
+    # - img: https://tuchuang.voooe.cn/images/2023/01/04/2.webp
+    #   link:
+    #   text: 微信
+    # - img: https://tuchuang.voooe.cn/images/2023/01/04/20f8e49805975b8f8.webp
+    #   link:
+    #   text: 支付宝
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -543,7 +557,8 @@ tag_ui: # 留空或 index
 # "#e4f4f6" "#efefef"
 background:
   #【必选】默认背景 
-  default: var(--default-bg)
+  # default: var(--default-bg)
+  default: url(https://webpage-images.pages.dev/bac.jpeg)
   #【可选】PC端夜间模式背景 
   darkmode: var(--darkmode-bg)
   #【可选】移动端日间默认背景 
@@ -671,7 +686,7 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    - "Welcome to Fomalhaut🥝のTiny Home!🤣🤣🤣"
+    - "Welcome to Eviden🥝のTiny Home!🤣🤣🤣"
     - "Hope you have a nice day!🍭🍭🍭"
 
 # Loading Animation (加載動畫)
@@ -702,10 +717,10 @@ aside:
       enable: true
       icon: # fab fa-github
       text: 前往小窝
-      link: https://github.com/fomalhaut1998
+      link: https://github.com/Eviden0/
   card_announcement:
     enable: true
-    content: <center><b>--- 主域名 ---<br><a href="https://www.fomal.cc" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">fomal.cc</font></a>&nbsp;|&nbsp;<a href="https://www.fomal.cn" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">fomal.cn</font></a><br>--- 备用域名 ---<br><a href="https://netlify.fomal.cc" title="此线路部署于Netlify" class="anno_content"><font color="#5ea6e5">netlify.fomal.cc</font></a><br><a href="https://cloudflare.fomal.cc" title="此线路部署于Cloudflare" class="anno_content"><font color="#5ea6e5">cloudflare.fomal.cc</font></a><br>--- 网站安卓APP ---<br>🍧<a href="https://lskypro.acozycotage.net/Fomalhaut/Fomalhaut.apk" title="点这里可以下载网站的安卓APP" class="anno_content"><font color="#5ea6e5">点此下载</font></a>🍧</b></center>
+    content: <center><b>--- 主域名 ---<br><a href="https://eviden.top" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">www.eviden.top</font></a>&nbsp;|&nbsp;<a href="#" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">XXX</font></a><br>--- 备用域名 ---<br><a href="#" title="此线路部署于Netlify" class="anno_content"><font color="#5ea6e5">XXX</font></a><br><a href="#" title="此线路部署于Cloudflare" class="anno_content"><font color="#5ea6e5">XXX</font></a><br>--- 网站安卓APP ---<br>🍧<a href="#" title="点这里可以下载网站的安卓APP" class="anno_content"><font color="#5ea6e5">请勿下载!</font></a>🍧</b></center>
   card_recent_post:
     enable: false
     limit: 3 # if set 0 will show all
@@ -736,7 +751,7 @@ aside:
   card_weibo:
     enable: false
   card_friend_link: #友链通讯录
-    enable: true
+    enable: false
     sort_order: # Don't modify the setting unless you know
 
 # busuanzi count for PV / UV in site
@@ -907,6 +922,7 @@ inject:
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"> # 常规css
     - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"> # 引入组件库(f12)
     # 综合美化模块样式引入
+    - <link src="https://raw.githubusercontent.com/Eviden0/new-webpage/main/css/index.css">
     - <style id="themeColor"></style> # 主题色
     - <style id="rightSide"></style> # 侧边栏
     - <style id="transPercent"></style> # 透明度调节
@@ -917,6 +933,7 @@ inject:
     - <style id="menu_shadow"></style> # 菜单发光样式
 
   bottom:
+   
     - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script> # jQuery
     - <script async src="https://cdn1.tianli0.top/npm/vue@2.6.14/dist/vue.min.js"></script> # VUE
     - <script async src="https://cdn1.tianli0.top/npm/element-ui@2.15.6/lib/index.js"></script> # ElementUI

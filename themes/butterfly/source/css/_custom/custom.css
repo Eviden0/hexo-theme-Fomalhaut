@@ -1199,7 +1199,7 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);
+  background-image: url(https://pica.zhimg.com/80/v2-00e91985a3319c560e56da43660541e0_720w.webp?source=1def8aca);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -1271,7 +1271,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp)
+  background: url(https://webpage-images.pages.dev/logo.jpeg)
     no-repeat center center;
   background-size: cover;
 }
